@@ -1,0 +1,5 @@
+[i*j for i in 'xyz' for j in range(1,5)]
+[i*j for i in range(1,5) for j in 'xyz']
+[[x+y] for x in range(2,5) for y in range(3)],[[i for i in range(2,6)],[i for i in range(3,7)]]
+[[i for i in range(4,8)],[i for i in range(5,9)]]]
+[(y,x) for x in range(1,4) for y in range(1,4)]
